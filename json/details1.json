@@ -1,0 +1,533 @@
+[
+	{
+		"bianhao":"LLG851S010",
+		"PrdID": 882,
+		"p1":"乐扣乐扣格拉斯",
+		"PrdName": "乐扣乐扣格拉斯保鲜盒6件套礼盒装",
+		"PrdPrice": 404.70,
+		"PrdMarketPrice": 404.70,
+		"views":768,
+		"collection":5,
+		"kc":106,
+		"proImg":[
+					"./Upload/details/201512281452176851.jpg"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/12862255.jpg",
+				"./Upload/details/28790261.jpg",
+				"./Upload/details/37504648.jpg",
+				"./Upload/details/48446746.jpg",
+				"./Upload/details/52489726.jpg",
+				"./Upload/details/63902874.jpg",
+				"./Upload/details/76287836.jpg",
+				"./Upload/details/89644615.jpg",
+				"./Upload/details/92745498.jpg",
+				"./Upload/details/105130461.jpg",
+				"./Upload/details/112028749.jpg",
+				"./Upload/details/128928571.jpg",
+				"./Upload/details/134570963.jpg"
+			]
+		
+	},
+	{
+		"bianhao":"LLG447S014",
+		"PrdID": 883,
+		"p1":"乐扣乐扣格拉斯",
+		"PrdName": "乐扣乐扣格拉斯保鲜盒8件套",
+		"PrdPrice": 519.60,
+		"PrdMarketPrice": 519.60,
+		"views":554,
+		"collection":3,
+		"kc":182,
+		"proImg":[
+					"./Upload/details/201512281502091765.png",
+					"./Upload/details/201512281501585667.png"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/19833923.jpg",
+				"./Upload/details/28646125.jpg",
+				"./Upload/details/34789284.jpg",
+				"./Upload/details/47174247.jpg",
+				"./Upload/details/51030259.jpg",
+				"./Upload/details/62129608.jpg",
+				"./Upload/details/78715632.jpg",
+				"./Upload/details/84044227.jpg",
+				"./Upload/details/134570963.jpg"
+			]
+		
+	},
+	{
+		"bianhao":"LLG533S3O",
+		"PrdID": 833,
+		"p1":"其他厨用小件乐扣乐扣 LOCK&LOCK",
+		"PrdName": "乐扣乐扣卡扣玻璃储物罐三件套 950ml*3",
+		"PrdPrice": 168.00,
+		"PrdMarketPrice": 168.00,
+		"views":421,
+		"collection":5,
+		"kc":0,
+		"proImg":[
+					"./Upload/details/201512090949499807.jpg",
+					"./Upload/details/201512090950225288.jpg",
+					"./Upload/details/201512090950240289.jpg",
+					"./Upload/details/201512090950257477.jpg",
+					"./Upload/details/201512090950270290.jpg"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/LLG533_013606319.jpg",
+				"./Upload/details/LLG533_027590693.jpg",
+				"./Upload/details/LLG533_031005374.jpg",
+				"./Upload/details/LLG533_0432330868193043.jpg",
+				"./Upload/details/LLG533_051633674.jpg",
+				"./Upload/details/LLG533_061790926.jpg",
+				"./Upload/details/LLG533_073204073.jpg",
+				"./Upload/details/LLG533_084804189.jpg",
+				"./Upload/details/LLG533_098445047.jpg",
+				"./Upload/details/LLG533_107316685.jpg"
+				
+			]
+		
+	},
+	{
+		"bianhao":"LLG516S01",
+		"PrdID": 1236,
+		"p1":"乐扣乐扣格拉斯",
+		"PrdName": "乐扣乐扣玻璃储物罐卡扣3件",
+		"PrdPrice": 168.00,
+		"PrdMarketPrice": 168.00,
+		"views":475,
+		"collection":1,
+		"kc":8,
+		"proImg":[
+					"./Upload/details/201611181747196776.jpg",
+					"./Upload/details/201611181747476629.jpg",
+					"./Upload/details/201611181747481942.jpg",
+					"./Upload/details/201611181747497880.jpg",
+					"./Upload/details/201611181747515068.jpg"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/LLG516S01_019092046.jpg",
+				"./Upload/details/LLG516S01_023134323.jpg",
+				"./Upload/details/LLG516S01_036206317.jpg",
+				"./Upload/details/LLG516S01_043006789.jpg",
+				"./Upload/details/LLG516S01_056078783.jpg",
+				"./Upload/details/LLG516S01_066893348.jpg",
+				"./Upload/details/LLG516S01_075450483.jpg",
+				"./Upload/details/LLG516S01_089778373.jpg",
+				"./Upload/details/LLG516S01_092063986.jpg",
+				"./Upload/details/LLG516S01_101121888.jpg",
+				"./Upload/details/LLG516S01_113693116.jpg",
+				"./Upload/details/LLG516S01_125509214.jpg",
+				"./Upload/details/LLG516S01_138865288.jpg",
+				"./Upload/details/LLG516S01_142937282.jpg",
+				"./Upload/details/LLG516S01_158737755.jpg",
+				"./Upload/details/LLG516S01_162809749.jpg",
+				"./Upload/details/LLG516S01_175852025.jpg"
+			]
+	},
+	{
+		"bianhao":"LLG429S004",
+		"PrdID": 901,
+		"p1":"乐扣乐扣格拉斯",
+		"PrdName": "乐扣乐扣格拉斯耐热玻璃保鲜盒4件套",
+		"PrdPrice": 240.00,
+		"PrdMarketPrice": 240.00,
+		"views":672,
+		"collection":6,
+		"kc":97,
+		"proImg":[
+					"./Upload/details/201601111332287507.png",
+					"./Upload/details/201601111333160338.png",
+					"./Upload/details/201601111333165650.png",
+					"./Upload/details/201601111333169869.png"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/13411574.jpg",
+				"./Upload/details/27769182.jpg",
+				"./Upload/details/31841176.jpg",
+				"./Upload/details/46198783.jpg",
+				"./Upload/details/58799729.jpg",
+				"./Upload/details/68171428.jpg",
+				"./Upload/details/73057987.jpg",
+				"./Upload/details/85471963.jpg",
+				"./Upload/details/98543957.jpg",
+				"./Upload/details/102115184.jpg",
+				"./Upload/details/117444608.jpg",
+				"./Upload/details/126502510.jpg",
+				"./Upload/details/134902394.jpg",
+				"./Upload/details/144461063.jpg"
+			]
+	},
+	{
+		"bianhao":"HLC634R/G/B",
+		"PrdID": 983,
+		"p1":"乐扣乐扣 LOCK&LOCK",
+		"PrdName": "乐扣乐扣运动型塑料水杯 (770ml）",
+		"PrdPrice": 69.80,
+		"PrdMarketPrice": 69.80,
+		"views":1094,
+		"collection":17,
+		"kc":2544,
+		"yanse":["浅绿色","粉色","蓝色"],
+		"proImg":[
+					"./Upload/details/201602031325140073.jpg",
+					"./Upload/details/201602031325143067.jpg",
+					"./Upload/details/201602031325135962.jpg",
+					"./Upload/details/201602031325145663.jpg"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/HLC634详情750px_018847735.jpg",
+				"./Upload/details/HLC634详情750px_025775741.jpg",
+				"./Upload/details/HLC634详情750px_037218606.jpg",
+				"./Upload/details/HLC634详情750px_057876624.jpg",
+				"./Upload/details/HLC634详情750px_065118428.jpg",
+				"./Upload/details/HLC634详情750px_072547201.jpg",
+				"./Upload/details/HLC634详情750px_081261587.jpg",
+				"./Upload/details/HLC634详情750px_098975973.jpg"
+			]
+	},
+	{
+		"bianhao":"HLC802TB/TP/TG",
+		"PrdID": 1033,
+		"p1":"乐扣乐扣Bisfree",
+		"PrdName": "乐扣乐扣户外水杯(600ml)",
+		"PrdPrice": 57.00,
+		"PrdMarketPrice": 57.00,
+		"views":495,
+		"collection":4,
+		"kc":406,
+		"yanse":["粉色","绿色","蓝色"],
+		"proImg":[
+					"./Upload/details/201603241450520733.png",
+					"./Upload/details/201603241450518036.png",
+					"./Upload/details/201603241450523722.png"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/hlc802-16772672.png",
+				"./Upload/details/27872022.jpg",
+				"./Upload/details/37087175.png",
+				"./Upload/details/47528506.jpg"
+			]
+	},
+	{
+		"bianhao":"HLC806TBL",
+		"PrdID": 1122,
+		"p1":"乐扣乐扣 LOCK&LOCK",
+		"PrdName": "乐扣乐扣户外水杯(600ml)",
+		"PrdPrice": 59.40,
+		"PrdMarketPrice": 59.40,
+		"views":219,
+		"collection":3,
+		"kc":0,
+		"proImg":[
+					"./Upload/details/201605161717346746.jpg",
+					"./Upload/details/201605161717434048.jpg",
+					"./Upload/details/201605161717487653.jpg"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/乐扣星座塑料水杯4款容量7705049.jpg"
+			]
+	},
+	{
+		"bianhao":"HLC644(BRW/G/VOL)",
+		"PrdID": 1168,
+		"p1":"乐扣乐扣 LOCK&LOCK",
+		"PrdName": "乐扣乐扣便携橡胶提手水杯（棕色/绿色/紫色 550ML）",
+		"PrdPrice": 48.00,
+		"PrdMarketPrice": 48.00,
+		"views":1529,
+		"collection":45,
+		"kc":6488,
+		"yanse":["巧克力色","浅绿色","紫色"],
+		"proImg":[
+					"./Upload/details/201602031325140073.jpg",
+					"./Upload/details/201602031325143067.jpg",
+					"./Upload/details/201602031325135962.jpg",
+					"./Upload/details/201602031325145663.jpg"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/HLC6444057209.jpg"
+			]
+	},
+	{
+		"bianhao":" HLC659(Y/G)",
+		"PrdID": 1169,
+		"p1":"乐扣乐扣 LOCK&LOCK",
+		"PrdName": "乐扣乐扣柠檬杯（黄色/绿色 520ML）",
+		"PrdPrice": 68.00,
+		"PrdMarketPrice": 68.00,
+		"views":490,
+		"collection":1,
+		"kc":592,
+		"yanse":["浅绿色","浅黄色"],
+		"proImg":[
+					"./Upload/details/201602031325140073.jpg",
+					"./Upload/details/201602031325143067.jpg",
+					"./Upload/details/201602031325135962.jpg",
+					"./Upload/details/201602031325145663.jpg"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/HLC6594982650.jpg"
+			]
+	}
+]

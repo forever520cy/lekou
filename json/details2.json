@@ -1,0 +1,56 @@
+[
+	{
+		"bianhao":"HLC634R/G/B",
+		"PrdID": 983,
+		"p1":"乐扣乐扣 LOCK&LOCK",
+		"PrdName": "乐扣乐扣运动型塑料水杯 (770ml）",
+		"PrdPrice": 69.80,
+		"PrdMarketPrice": 69.80,
+		"views":1094,
+		"collection":17,
+		"kc":2544,
+		"yanse":["浅绿色","粉色","蓝色"],
+		"proImg":[
+					"./Upload/details/201602031325140073.jpg",
+					"./Upload/details/201602031325143067.jpg",
+					"./Upload/details/201602031325135962.jpg",
+					"./Upload/details/201602031325145663.jpg"
+				],
+		"list":[
+					{
+						"img":"./Upload/details/201511111401169798.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(150ml)",
+						"lsj":11.80,
+						"sj":11.80
+					},
+					{
+						"img":"./Upload/details/201511111407286816.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(280ml)",
+						"lsj":12.80,
+						"sj":12.80
+					},
+					{
+						"img":"./Upload/details/201511111410187975.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(500ml)",
+						"lsj":15.80,
+						"sj":15.80
+					},
+					{
+						"img":"./Upload/details/201511111413376021.jpg",
+						"txt":"乐扣乐扣INTERLOCK环保储物罐(700ml)",
+						"lsj":18.00,
+						"sj":18.00
+					}
+				],
+		"proInfoImg":[
+				"./Upload/details/HLC634详情750px_018847735.jpg",
+				"./Upload/details/HLC634详情750px_025775741.jpg",
+				"./Upload/details/HLC634详情750px_037218606.jpg",
+				"./Upload/details/HLC634详情750px_057876624.jpg",
+				"./Upload/details/HLC634详情750px_065118428.jpg",
+				"./Upload/details/HLC634详情750px_072547201.jpg",
+				"./Upload/details/HLC634详情750px_081261587.jpg",
+				"./Upload/details/HLC634详情750px_098975973.jpg"
+			]
+	}
+]

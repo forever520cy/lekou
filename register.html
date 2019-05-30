@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>会员注册</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/regsiter.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="./img/index/sitebarlogo.png"/>
+	<style type="text/css">
+		.yzm{
+			width: 60% !important;
+		}
+		.userTxt,.phoneTxt,.emailTxt,.psdTxt,.confirmTxt,.agreeTxt{
+			float: right;
+			width: 150px;
+			margin-left: 10px;
+			/*height: 37px;*/
+			line-height: 37px;
+			//background: url(img/index/validerror.png) no-repeat;
+			
+		}
+	</style>
+	<body>
+		<!--头部-->
+		<div class="header_area wrap clear">
+			<div class="logo"><img src="img/index/ico_08.png"/></div>
+			<div class="logo_text">www.locknlockmall.com.cn<br>
+				<span>乐扣乐扣网上官方商城</span>
+			</div>
+		</div>
+		
+		<!--注册区-->
+		<div class="regsiter_area">
+			<form action="" method="post">
+				<div class="regsiter_box">
+					<h2>乐扣乐扣官方商城会员注册</h2>
+					<table>
+						<!--用户名-->
+						<tr class="font14"><th><span>*</span>用户名</th></tr>
+						<tr><td>
+							<input type="text" name="" class="in1 username"/>
+							<span class="userTxt"></span>
+						</td></tr>
+						<!--手机号-->
+						<tr class="font14"><th><span>*</span>手机</th></tr>
+						<tr><td>
+							<input type="text" name="" class="in1 phone"/>
+							<span class="phoneTxt"></span>
+						</td></tr>
+						<!--验证码-->
+						<tr class="font14"><th><span>*</span>验证码</th></tr>
+						<tr>
+							<td>
+								<input type="text" name="" class="in1 yzm"/>
+								<span class="yzmTxt"></span>
+								<span class="change" style="cursor: pointer;">换一张</span>
+								<span class="res"></span>
+							</td>
+						</tr>
+						<!--短信验证码-->
+						<!--<tr class="font14"><th><span>*</span>短信验证码</th></tr>
+						<tr><td><input type="text" name="" class="in1"/></td></tr>-->
+						<!--邮箱-->
+						<tr class="font14"><th><span>*</span>邮箱</th></tr>
+						<tr><td>
+							<input type="text" name="" class="in1 email"/>
+							<span class="emailTxt"></span>
+						</td></tr>
+						<!--邀请码-->
+						<tr class="font14"><th><span style="opacity: 0;">*</span>邀请码</th></tr>
+						<tr><td><input type="text" name="" class="in1"/></td></tr>
+						<!--密码-->
+						<tr class="font14"><th><span>*</span>密码</th></tr>
+						<tr><td>
+							<input type="password" name="" class="in1 password"/>
+							<span class="psdTxt"></span>
+						</td></tr>
+						<!--确认密码-->
+						<tr class="font14"><th><span>*</span>确认密码</th></tr>
+						<tr><td>
+							<input type="password" name="" class="in1 confirm_password"/>
+							<span class="confirmTxt"></span>
+						</td></tr>
+						<!--协议-->
+						<tr><td>
+							<label>
+								<input type="checkbox" id="agree"/>
+								<span>点击注册，表示您同意乐扣乐扣<a href="javascript:">《服务协议》</a></span>
+								<span class="agreeTxt"></span>
+							</label>
+						</td></tr>
+						<!--注册按钮-->
+						<tr><td><input type="button" name="" id="regsiter_btn" value="立即注册" /></td></tr>
+					</table>
+				</div>
+			</form>
+		</div>
+		
+		<!--底部区域-->
+		<div class="footer">
+			沪ICP备13029983号<br />
+			上海乐扣乐扣贸易有限公司 版权所有<br />
+			本商店顾客个人信息将不会被泄漏给其他任何机构和个人<br />
+			本商店logo和图片都已经申请保护，不经授权不得使用
+			<img src="img/index/pic1.gif" alt="" />
+			<p>
+				<img src="img/index/shgs.gif" alt="" />
+				<img src="img/index/hgwb.png" alt="" />
+			</p>
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/localStorage.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		
+	</script>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>乐扣商城</title>
+	</head>
+	<link rel="shortcut icon" type="image/x-icon" href="./img/index/sitebarlogo.png"/>
+	<style type="text/css">
+		.change_num_up,.change_num_down{
+			width: 16px;
+		}
+		#big{
+			position: absolute;
+			z-index: 10;
+			left: 550px;
+			width: 450px;
+			height: 450px;
+			overflow: hidden;
+			/*background: red;*/
+			/*float: left;
+			overflow: hidden;
+			margin-top: 100px;
+			margin-left: 30px;*/
+			display: none;
+		}
+		#big img{
+			width: 1000px;
+			height: 1000px;
+		}
+		#mask{
+			width: 150px;
+			height: 150px;
+			/*background: skyblue;*/
+			background: rgba(0,0,0,0.5);
+			position: absolute;
+			z-index: 999;
+			top: 0;
+			left: 0;
+			cursor: pointer;
+			display: none;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/details.css"/>
+	<body>
+		<div class="header" id="top">
+			<!--头部导航-->
+			<div class="header_nav wrap clear">
+				<div class="nav_l">
+					<span><a href="login.html">欢迎来到乐扣乐扣 请登录</a></span>
+					<span><a href="register.html">免费注册</a></span>
+				</div>
+				<div class="nav_r">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">会员中心</a></li>
+						<li><a href="#"><span><img src="img/index/ico_04.png" alt="" /></span>手机乐扣</a></li>
+						<li style="padding-right: 0; background: none;"><a href="#">客户服务</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--logo-搜索区-->
+		<div class="logo_search clear">
+			<div class="logo_search_content">
+				<div class="logo_area">
+					<a href="#"><img src="img/index/201511051757169902.png"/></a>
+				</div>
+				<div class="search_area">
+					<div class="search_top">
+						<input type="text" />
+						<a href="#"></a>
+					</div>
+					<div class="search_bottom">
+						<ul>
+							<li class="hot">热门搜索:</li>
+							<li><a href="#">水壶</a></li>
+							<li><a href="#">新品</a></li>
+							<li><a href="#" style="color: #0066b8;">乐扣</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="icon_area">
+					<span><a href="#"><img src="img/index/ico_12.png" alt="" /><span>活动</span></a></span>
+					<span><a href="#"><img src="img/index/ico_14.png" alt="" /><span>会员</span></a></span>
+					<span><a href="#"><img src="img/index/ico_16.png" alt="" /><span>签到</span></a></span>
+					<span class="cartPage">
+						<a href="#"><img src="img/index/cart001.png" alt="" /><span>购物车</span></a>
+						<b class="num">0</b>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--商品导航板块-->
+		<div class="nav_area">
+			<div class="nav_content wrap">
+				<ul>
+					<li>
+						<a href="#">全部商品分类</a>
+						<div></div>
+					</li>
+					<li><a href="#">新品上市</a></li>
+					<li><a href="#">活动专区</a></li>
+					<li><a href="#">闪惠专区</a></li>
+					<li><a href="#">热销排行</a></li>
+					<li><a href="#">F2C</a></li>
+					<li><a href="#">生活百科</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--所在位置-->
+		<div class="pro_area">
+			<div class="pro_position wrap clear">
+				<div class="fl">
+	               	<img src="./img/details-img/ico_401.png">&nbsp;<a href="index.html">首页</a>
+	            </div>
+	            <ul class="clear">
+	            	<li><a href="#">密封容器<img src="img/details-img/downhead.png" alt="" /></a></li>
+	            	<li><a href="#">玻璃<img src="img/details-img/downhead.png" alt="" /></a></li>
+	            	<li><a href="#">四面锁扣<img src="img/details-img/downhead.png" alt="" /></a></li>
+	            </ul>
+			</div>
+		</div>
+		
+		<!--商品信息-->
+		<div class="pro_info wrap clear">
+			<div class="info_left">
+				<p title="乐扣乐扣格拉斯" class="p1">乐扣乐扣格拉斯</p>
+				<p title="乐扣乐扣格拉斯保鲜盒6件套礼盒装" class="p2">乐扣乐扣格拉斯保鲜盒6件套礼盒装</p>
+			</div>
+			<div class="info_right">
+				<div class="info_right_left">
+					<p class="top_p">评价</p>
+					<p>
+						<img src="img/details-img/on.png">
+						<img src="img/details-img/on.png">
+						<img src="img/details-img/on.png">
+						<img src="img/details-img/on.png">
+						<img src="img/details-img/on.png">
+					</p>
+				</div>
+				<div class="info_right_center">
+					<p class="top_p">浏览</p>
+					<p class="bottom_p">
+                        <img src="./img/details-img/pdetailseye.png"><span class="view_num">767</span>
+                    </p>
+				</div>
+				<div class="info_right_center">
+					<p class="top_p">收藏</p>
+					<p class="bottom_p">
+                        <img src="./img/details-img/pdatailsHeart.png"><span class="collection_num">4</span>
+                    </p>
+				</div>
+				<div class="info_right_right">
+					<div>
+						<img class="border_radius" src="./img/details-img/pdetailscollect.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--商品详情内容-->
+		<div class="details_area wrap clear">
+			<div class="details_left">
+				<div class="left_min">
+					<div class="min_content">
+						<ul>
+							<li><img src="img/details-img/201512281452176851.jpg"/></li>
+						</ul>
+					</div>
+				</div>
+				<div class="left_max">
+					<div class="left_max_content" id="small">
+						<img src="img/details-img/201512281452176851.jpg"/>
+					</div>
+					
+				</div>
+				<div id="big">
+					<img src=""/>
+				</div>
+			</div>
+			
+			<div class="details_right">
+				<div class="details_content">
+					<div class="title">
+						<span>编&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</span>
+						<span>：</span>
+						<span class="bianhao">LLG851S010</span>
+					</div>
+					<div class="title">
+						<span>建议零售价</span>
+						<span>：</span>
+						<span class="lshoujia">￥404.70</span>
+					</div>
+					<div class="title">
+						<span>售&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价</span>
+						<span>：</span>
+						<span class="shoujia">￥404.70</span>
+					</div>
+					<div class="yanse_title">
+						<!--<span>颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色</span>
+						<span>：</span>
+						<div class="yanse">
+							<span>浅绿色</span>
+							<span>粉色</span>
+							<span>粉色</span>
+						</div>-->
+					</div>
+					<div class="title">
+						<span>数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量</span>
+						<span>：</span>
+						<input type="text" value="1" class="pro_num" />
+						<div class="change_num">
+							<div class="change_num_up">
+								<img src="img/details-img/sum_up.png"/>
+							</div>
+							<div class="change_num_down">
+								<img src="img/details-img/sum_down.png"/>
+							</div>
+						</div>
+						<span class="kc">（当前库存：<span class="residue_number">106</span>件）</span>
+					</div>
+					
+				</div>
+				<div class="btn_area">
+					<!--收藏-->
+					<a href="javascropt:" class="collection">
+						<img src="img/details-img/pdatailsHeart.png"/>收藏
+					</a>
+					<a href="javascropt:" class="mycart">
+						<img src="img/details-img/ico_411.jpg"/>加入购物车
+					</a>
+					<a href="javascropt:" class="buy">立即购买</a>
+				</div>
+			</div>
+		</div>
+		
+		<!--更多商品-->
+		<div class="more_pro wrap">
+			<div class="more_pro_left">
+				<div class="left_list">
+					<p class="active">
+						<span class="title">人气商品</span>
+						<span class="circle"></span>
+					</p>
+					<p class="active">
+						<span class="title">可能喜欢</span>
+						<span class="circle1"></span>
+					</p>
+					<p class="active">
+						<span class="title">搭配购买</span>
+						<span class="circle1"></span>
+					</p>
+				</div>
+				<div class="line"></div>
+			</div>
+			<div class="more_pro_right clear">
+				<div class="content_box">
+					<div class="pro_content">
+						<div class="items">
+							<div class="img">
+								<a href="#"><img src="img/details-img/201511111401169798.jpg"/></a>
+							</div>
+							<p class="name">乐扣乐扣INTERLOCK环保储物罐(150ml)</p>
+							<!--零售价-->
+							<p class="lsj">
+								<span>建议零售价</span>
+								<span>￥11.80</span>
+							</p>
+							<p class="sj_area">
+								<span class="sj">售　　　价</span>
+								<span class="price_num">￥11.80</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--商品信息列表-->
+		<div class="pro_info_list wrap">
+			<ul class="clear">
+				<li class="active">商品信息</li>
+				<li>商品评价</li>
+				<li>商品咨询</li>
+				<li>配送和退换货信息</li>
+			</ul>
+			<!--图片-->
+			<div class="pro_line"></div>
+			<div class="img_info">
+				<!--<p><img src="img/details-img/12862255.jpg"/></p>-->
+			</div>
+		</div>
+		
+		<!--售后-->
+		<div class="foot">
+			<div class="foot_content wrap">
+				<div class="content_up clear">
+					<ul>
+						<li>
+							<span class="li-a1">
+		                        <img src="./img/index/ico_84.png" width="60">
+		                    </span>
+		                    <p>
+		                        <span class="li-a2">正品保障</span>
+		                    </p>
+		                    <p>
+		                        <span class="li-a3">正品保障，提供发票</span>
+		                    </p>
+						</li>
+						<li>
+							<span class="li-a1">
+		                        <img src="./img/index/ico_86.png" width="60">
+		                    </span>
+		                    <p>
+		                        <span class="li-a2">急速物流</span>
+		                    </p>
+		                    <p>
+		                        <span class="li-a3">急速物流，极速送达</span>
+		                    </p>
+						</li>
+						<li>
+							<span class="li-a1">
+		                        <img src="./img/index/ico_88.png" width="60">
+		                    </span>
+		                    <p>
+		                        <span class="li-a2">无忧售后</span>
+		                    </p>
+		                    <p>
+		                        <span class="li-a3">7天无理由退换货</span>
+		                    </p>
+						</li>
+						<li>
+							<span class="li-a1">
+		                        <img src="./img/index/ico_90.png" width="60">
+		                    </span>
+		                    <p>
+		                        <span class="li-a2">特色服务</span>
+		                    </p>
+		                    <p>
+		                        <span class="li-a3">生活百科，教你知识</span>
+		                    </p>
+						</li>
+						<li>
+							<span class="li-a1">
+		                        <img src="./img/index/ico_92.png" width="60">
+		                    </span>
+		                    <p>
+		                        <span class="li-a2">帮助中心</span>
+		                    </p>
+		                    <p>
+		                        <span class="li-a3">您的购物指南</span>
+		                    </p>
+						</li>
+					</ul>
+				</div>
+				<div class="content_down wrap">
+					<div class="mb_ul1">
+	                    <ul>
+	                        <li><span class="mb_ul_one">购物指南</span></li>
+	                        <li><a href="#">导购演示</a></li>
+	                        <li><a href="#">免费注册</a></li>
+	                        <li><a href="#">会员等级</a></li>
+	                    </ul>
+	                </div>
+	                <div class="mb_ul1">
+	                    <ul>
+	                        <li><span class="mb_ul_one">支付方式</span></li>
+	                        <li><a href="#">快捷支付</a></li>
+	                    </ul>
+	                </div>
+	                <div class="mb_ul1">
+	                    <ul>
+	                        <li><span class="mb_ul_one">物流配送</span></li>
+	                        <li><a href="#">运费收取说明</a></li>
+	                        <li><a href="#">商品验货及签收</a></li>
+	                        <li><a href="#">配送进度查询</a></li>
+	                    </ul>
+	                </div>
+	                <div class="mb_ul1">
+	                    <ul>
+	                        <li><span class="mb_ul_one">售后服务</span></li>
+	                        <li><a href="#">退换货政策</a></li>
+	                        <li><a href="#">退换货流程</a></li>
+	                        <li><a href="#">退款说明</a></li>
+	                        <li><a href="#">退换货申请</a></li>
+	                    </ul>
+	                </div>
+	                <div class="mb_ul1">
+	                    <ul>
+	                        <li><span class="mb_ul_one">其他服务</span></li>
+	                        <li><a href="#">活动专区</a></li>
+	                        <li><a href="#">积分兑换</a></li>
+	                    </ul>
+	                </div>
+	                <div class="mb_ul1">
+	                    <img src="img/index/wechat.jpg" alt="" width="80%;" />
+	                </div>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部区域-->
+		<div class="footer">
+			沪ICP备13029983号<br />
+			上海乐扣乐扣贸易有限公司 版权所有<br />
+			本商店顾客个人信息将不会被泄漏给其他任何机构和个人<br />
+			本商店logo和图片都已经申请保护，不经授权不得使用
+			<img src="img/index/pic1.gif" alt="" />
+			<p>
+				<img src="img/index/shgs.gif" alt="" />
+				<img src="img/index/hgwb.png" alt="" />
+			</p>
+		</div>
+		
+		<!--网站右侧-->
+		<div class="right">
+			<div class="siteBarNav fl">
+	            <span class="siteLogo" style="margin-top: 243px;"></span>
+	            <ul>
+	                <li>
+	                    <a href="#" class="siteCart" title="购物车"></a>
+	                    <span><a style="color: #fff;" href="buyCar.html">我的购物车</a></span>
+	                </li>
+	                <li>
+	                    <a href="#" class="siteCoupon" title="优惠券"></a>
+	                    <span>我的优惠券</span>
+	                </li>
+	                <li>
+	                    <a href="#" class="siteCollect" title="收藏"></a>
+	                    <span>我的收藏</span>
+	                </li>
+	                <li>
+	                    <a href="#" class="siteFoot" title="足迹"></a>
+	                    <span>我的足迹</span>
+	                </li>
+	            </ul>
+	            <a href="#top" class="siteGotop" title="返回顶部"></a>
+	        </div>
+		</div>
+		
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/localStorage.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/details.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+
+	</script>
+</html>

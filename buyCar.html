@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/buyCar.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="./img/index/sitebarlogo.png"/>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.wrap{
+			width: 1100px;
+			margin: 0 auto;
+		}
+		.content{
+			
+		}
+		.pro{
+			margin-top: 100px;
+			/*height: 150px;*/
+			/*background: rgba(0,0,0,.2);*/
+			text-align: center;
+		}
+		th{
+			padding: 10px 60px;
+		}
+		td{
+			height: 150px;
+		}
+		.proInfo{
+			width: 150px;
+		}
+		.ipt{
+			float: left;
+			width: 20px;
+			height: 150px;
+			margin: 0 10px 0 10px;
+		}
+		.proImg{
+			float: left;
+			width: 120px;
+			height: 120px;
+			margin-top: 15px;
+		}
+		.proImg img{
+			width: 120px;
+			height: 120px;
+		}
+		.sum{
+			height: 50px;
+			line-height: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+	<body>
+		<div class="header">
+			<!--头部导航-->
+			<div class="header_nav wrap clear">
+				<div class="nav_l">
+					<span><a href="login.html">欢迎来到乐扣乐扣 请登录</a></span>
+					<span><a href="register.html">免费注册</a></span>
+				</div>
+				<div class="nav_r">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">会员中心</a></li>
+						<li><a href="#"><span><img src="img/index/ico_04.png" alt="" /></span>手机乐扣</a></li>
+						<li style="padding-right: 0; background: none;"><a href="#">客户服务</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--logo-搜索区-->
+		<div class="logo_search clear">
+			<div class="logo_search_content">
+				<div class="logo_area">
+					<a href="#"><img src="img/index/201511051757169902.png"/></a>
+				</div>
+				<div class="search_area">
+					<div class="search_top">
+						<input type="text" />
+						<a href="#"></a>
+					</div>
+					<div class="search_bottom">
+						<ul>
+							<li class="hot">热门搜索:</li>
+							<li><a href="#">水壶</a></li>
+							<li><a href="#">新品</a></li>
+							<li><a href="#" style="color: #0066b8;">乐扣</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="icon_area">
+					<span><a href="#"><img src="img/index/ico_12.png" alt="" /><span>活动</span></a></span>
+					<span><a href="#"><img src="img/index/ico_14.png" alt="" /><span>会员</span></a></span>
+					<span><a href="#"><img src="img/index/ico_16.png" alt="" /><span>签到</span></a></span>
+					<span class="cartPage">
+						<a href="#"><img src="img/index/cart001.png" alt="" /><span>购物车</span></a>
+						<b class="num">0</b>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--商品导航板块-->
+		<div class="nav_area">
+			<div class="nav_content wrap">
+				<ul>
+					<li>
+						<a href="#">全部商品分类</a>
+						<div></div>
+					</li>
+					<li><a href="#">新品上市</a></li>
+					<li><a href="#">活动专区</a></li>
+					<li><a href="#">闪惠专区</a></li>
+					<li><a href="#">热销排行</a></li>
+					<li><a href="#">F2C</a></li>
+					<li><a href="#">生活百科</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content wrap">
+			<table class="pro" border="1" cellspacing="0" cellpadding="0">
+				<tr>
+					<th><input type="checkbox"/>全选</th>
+					<th>商品信息</th>
+					<th>单价</th>
+					<th>数量</th>
+					<th>金额</th>
+					<th>操作</th>
+				</tr>
+				<tr>
+					<td>
+						<div class="ipt"><input type="checkbox"/></div>
+						<div class="proImg"><img src=""/></div>
+					</td>
+					<td>Data</td>
+					<td>Data</td>
+					<td>Data</td>
+					<td>Data</td>
+					<td>Data</td>
+				</tr>
+			</table>
+			<div class="sum">合计：<span class="price_sum">0</span></div>
+		</div>
+		
+		<!--底部区域-->
+		<div class="footer">
+			沪ICP备13029983号<br />
+			上海乐扣乐扣贸易有限公司 版权所有<br />
+			本商店顾客个人信息将不会被泄漏给其他任何机构和个人<br />
+			本商店logo和图片都已经申请保护，不经授权不得使用
+			<img src="img/index/pic1.gif" alt="" />
+			<p>
+				<img src="img/index/shgs.gif" alt="" />
+				<img src="img/index/hgwb.png" alt="" />
+			</p>
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		if(sessionStorage.nowUser){
+			var nowUser = JSON.parse(sessionStorage.nowUser)[0].username
+			var str = '亲爱的<span>'+nowUser+'</span>欢迎来到乐扣商城！'
+						+'<span class="out">退出</span>'
+			$(".nav_l").html(str)
+			$(".nav_l span").css("font-weight","bold")
+			$(".nav_l span").css("font-size","14px")
+			$(".nav_l span").css("color","red")
+			$(".nav_l span.out").css("color","blue")
+			$(".nav_l span.out").css("cursor","pointer")
+			$(".nav_l span.out").click(function(){
+				sessionStorage.clear()
+				location.href = "index.html"
+			})
+			
+			if(localStorage.myShopCar){
+				var userNum = JSON.parse(localStorage.myShopCar)
+				//console.log(userNum.length)
+				var str = ""
+				var titleStr = ""
+				var userFlag = true
+				for(var i=0;i<userNum.length;i++){
+					if(nowUser==userNum[i].user){
+						console.log(userNum[i])
+						console.log(i)
+						var y = i
+						userFlag = false
+						var buyNum = userNum[i].shopCar
+						$(".num").html(buyNum.length)
+						console.log(buyNum)
+						titleStr = '<tr>'
+									+'<th><input class="all" type="checkbox"/>全选</th>'
+									+'<th class="proInfo">商品信息</th>'
+									+'<th>单价</th>'
+									+'<th>数量</th>'
+									+'<th>金额</th>'
+									+'<th>操作</th>'
+								+'</tr>'
+						for(var j=0;j<buyNum.length;j++){
+							//console.log(buyNum[j])
+							//toFixed(2)---保留两位小数
+							var sumPrice = (buyNum[j].price*buyNum[j].addNum).toFixed(2)
+							str += '<tr>'
+										+'<td>'
+											+'<div class="ipt"><input pid="'+buyNum[j].id+'" class="inp_ck" type="checkbox"/></div>'
+											+'<div class="proImg"><img src="'+buyNum[j].proImg+'"/></div>'
+										+'</td>'
+										+'<td class="proInfo">'+buyNum[j].info+'</td>'
+										+'<td>￥'+buyNum[j].price.toFixed(2)+'</td>'
+										+'<td>'+buyNum[j].addNum+'</td>'
+										+'<td>￥'+sumPrice+'</td>'
+										+'<td><button pid="'+buyNum[j].id+'" class="btn">删除</button></td>'	
+									+'</tr>'
+						}
+						var pro = document.getElementsByClassName("pro")[0]
+						pro.innerHTML = titleStr + str
+						//为复选框绑定事件
+						var iptBtn = document.getElementsByClassName("inp_ck")
+						//console.log(iptBtn)
+						var price = 0
+						for(var j=0;j<iptBtn.length;j++){
+							iptBtn[j].index = j
+							//console.log(iptBtn[j].index)
+							iptBtn[j].onclick = function(){
+								//console.log(this.getAttribute("pid"))
+								if(this.checked){
+									//console.log(this)
+									var pro_pid = Number(this.getAttribute("pid"))
+									for(var k=0;k<iptBtn.length;k++){
+										if(pro_pid==buyNum[k].id){
+											price += buyNum[k].price*buyNum[k].addNum
+											//console.log(price)
+											$(".price_sum").html(price.toFixed(2))
+										}
+									}
+									
+								}else{
+									var pro_pid = Number(this.getAttribute("pid"))
+									for(var k=0;k<iptBtn.length;k++){
+										if(pro_pid==buyNum[k].id){
+											price -= buyNum[k].price*buyNum[k].addNum
+											//console.log(price)
+											$(".price_sum").html(price.toFixed(2))
+										}
+									}
+								}
+								//判断是否全选
+								var flag = true
+								for(var h=0;h<iptBtn.length;h++){
+									if(!iptBtn[h].checked){
+										$(".all")[0].checked = false
+										flag = false
+										//document.getElementsByClassName("all")[0].checked = false
+									}
+								}
+								if(flag){
+									$(".all")[0].checked = true
+								}
+								
+							}
+						}
+						//全选框绑定事件
+						$(".all").click(function(){
+							if($(".all")[0].checked){
+								for(var x=0;x<iptBtn.length;x++){
+									iptBtn[x].checked = true
+									//for(var k=0;k<iptBtn.length;k++){
+										price += buyNum[x].price*buyNum[x].addNum
+										$(".price_sum").html('￥'+price.toFixed(2))
+									//}
+								}
+							}else{
+								for(var x=0;x<iptBtn.length;x++){
+									iptBtn[x].checked = false
+									//for(var k=0;k<iptBtn.length;k++){
+										price -= buyNum[x].price*buyNum[x].addNum
+										$(".price_sum").html('￥'+price.toFixed(2))
+									//}
+								}
+							}
+						})
+						//删除事件
+						var btn = $(".btn")
+						for(var j=0;j<btn.length;j++){
+							btn[j].index = j
+//							console.log(btn[j].index)
+							btn[j].onclick = function(){
+								var delId = this.getAttribute("pid")
+								for(var k=0;k<btn.length;k++){
+									if(delId==buyNum[k].id){
+										buyNum.splice(k,1)
+										break
+									}
+								}
+								//console.log(buyNum)
+								//JSON.parse(localStorage.myShopCar)[i].shopCar = buyNum
+								//console.log(JSON.parse(localStorage.myShopCar)[y].shopCar)
+								var aa = JSON.parse(localStorage.myShopCar)
+								console.log(aa)
+								aa[y].shopCar = buyNum
+								console.log(aa[y].shopCar)
+								console.log(aa)
+								localStorage.myShopCar = JSON.stringify(aa)
+								location.reload()
+//								localStorage.myShopCar)[y].shopCar = JSON.stringify()
+								//console.log(userNum[i])
+							}
+						}
+						if(userNum[i].shopCar.length==0){
+							var img = '<img src="img/kkry_bg.jpg">'
+							$(".content").html(img)
+						}
+//						console.log(userNum[i])
+					}
+				}
+				if(userFlag){
+					//用户没有添加过购物车
+					var img = '<img src="img/kkry_bg.jpg">'
+					$(".content").html(img)
+				}
+			}else{
+				var img = '<img src="img/kkry_bg.jpg">'
+				$(".content").html(img)
+			}
+				
+				
+				
+		}
+		
+		
+	</script>
+</html>
